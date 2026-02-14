@@ -1,5 +1,5 @@
 function iniciar() {
-    const mensaje = "Feliz San Valentín, Andrea ❤️ Desde que llegaste, todo se siente más bonito.";
+    const mensaje = "Feliz San Valentín, Andrea ❤️ Seguí sonriendo, porque si todos vieran <br> tu sonrisa como yo, ningún astronauta volvería a ir a las estrellas.";
     const elemento = document.getElementById("mensaje");
     const musica = document.getElementById("musica");
 
@@ -44,3 +44,4 @@ style.innerHTML = `
 }
 `;
 document.head.appendChild(style);
+
