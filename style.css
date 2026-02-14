@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #2b0f1c, #5e1f3d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.nombre {
+    font-size: 55px;
+    color: #ffb6c1;
+    animation: brillo 2s infinite alternate;
+}
+
+@keyframes brillo {
+    from { text-shadow: 0 0 10px #ff69b4; }
+    to { text-shadow: 0 0 30px #ff1493; }
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background: #ff1744;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d50000;
+    transform: scale(1.1);
+}
